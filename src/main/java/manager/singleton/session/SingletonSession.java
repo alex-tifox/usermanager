@@ -22,4 +22,4 @@ public class SingletonSession {
         return sessionFactory;
     }
 }
-}
+

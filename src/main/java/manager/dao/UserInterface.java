@@ -2,6 +2,8 @@ package manager.dao;
 
 import manager.model.User;
 
+import java.util.List;
+
 public interface UserInterface {
     void addUser(User user);
 
@@ -9,7 +11,6 @@ public interface UserInterface {
 
     void updateUser(User user);
 
-    void getUsersInfo();
+    List<User> getUsersInfo();
 
-    void getOneUserInfo();
 }
