@@ -17,5 +17,7 @@
         <property name="format_sql">true</property>
         <property name="use_sql_comments">false</property>
 
+        <mapping class="manager.model.User"></mapping>
+
     </session-factory>
 </hibernate-configuration>
