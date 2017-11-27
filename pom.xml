@@ -83,7 +83,7 @@
                         <port>9999</port>
                     </httpConnector>
                     <webApp>
-                        <contextPath>/spring-example</contextPath>
+                        <contextPath>/user-manager</contextPath>
                     </webApp>
                 </configuration>
             </plugin>
